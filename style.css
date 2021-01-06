@@ -1,5 +1,6 @@
 body{    
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 .main{
     width: 1040px;
@@ -90,10 +91,10 @@ section{
 }
 .lastet-content {
 	float: left;
-	width: 30%;
+	width: 28%;
 	padding: 10px;
 	box-shadow: 5px 5px 10px gray;
-	margin-left: 10px;
+	margin-left: 20px;
 	border-radius: 15px;
 }
 .lastet-img{
@@ -147,15 +148,18 @@ section{
 }
 .client-head{
     float: left;
-    padding-right: 10px;    
+    padding-right: 10px; 
+    margin-top: 20px;   
 }
 .client-img{
     width: 115px;
     height: 115px;
     border-radius: 50%;
 }
-.client-body{
-    text-align: justify;
+.client-body {
+	text-align: justify;
+	float: left;
+	width: 55%;
 }
 footer{
     text-align: center;
