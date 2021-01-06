@@ -83,6 +83,7 @@ section{
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 35px;
+    color:#363958;
 }
 .lastet-color{
     color: #F46060;
@@ -126,6 +127,35 @@ section{
     width: 50%;
     text-align: center;
     margin-top: 60px;
+}
+.review {
+	height: 350px;
+}
+.client-top{
+    text-align: center;
+    text-transform: uppercase;
+    color:#363958;
+    padding-bottom: 25px;
+}
+.client-review{
+    float: left;
+	width: 30%;
+	padding: 10px;
+	box-shadow: 5px 5px 10px gray;
+	margin-left: 10px;
+	border-radius: 15px;
+}
+.client-head{
+    float: left;
+    padding-right: 10px;    
+}
+.client-img{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+.client-body{
+    text-align: justify;
 }
 footer{
     text-align: center;
